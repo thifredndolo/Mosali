@@ -1,0 +1,31 @@
+{
+  "bundler": "vite",
+  "projectName": "mosali",
+  "mode": "file-router",
+  "typescript": true,
+  "packageManager": "npm",
+  "includeExamples": false,
+  "tailwind": true,
+  "projectPreset": "default",
+  "routerOnly": false,
+  "addOnOptions": {
+    "prisma": {
+      "database": "postgres"
+    }
+  },
+  "git": true,
+  "install": true,
+  "intent": true,
+  "version": 1,
+  "framework": "react",
+  "chosenAddOns": [
+    "biome",
+    "prisma",
+    "compiler",
+    "form",
+    "shadcn",
+    "table",
+    "store",
+    "tanstack-query"
+  ]
+}
